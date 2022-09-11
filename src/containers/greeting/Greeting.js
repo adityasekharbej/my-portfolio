@@ -10,7 +10,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 // import biswa from '../../assets/images/biswa1.jpeg'
-import aditya from '../../assets/images/adi.jpg'
+import aditya from '../../assets/images/Adityaaa.jpg'
 
 
 export default function Greeting() {
@@ -54,7 +54,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             {illustration.animated ? (
               <div>
-                  <img style={{borderRadius:"50%"}} width="90%" height="110%" src={aditya} alt=""/>
+                  <img style={{borderRadius:"50%"}} width="100%" height="110%" src={aditya} alt=""/>
              </div>
 
             ) : (

@@ -14,7 +14,7 @@ const greeting = {
   username: "Aditya Sekhar Bej",
   title: "Hi all, I'm Aditya",
   subTitle: emoji(
-    "A passionate Full Stack Web Developer 🚀 having an experience of designing and building Web applications with HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB and Material-UI"
+    "A passionate Full Stack Web Developer 🚀 having an experience of designing and building Web applications with HTML5, CSS3, JavaScript, React.js, Node.js, Express.js and MongoDB."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1lRWjevqBefoz9G1wF-nLKtPdoMvY3oAv/view?usp=sharing",
@@ -29,7 +29,7 @@ const socialMediaLinks = {
   gmail: "adityasekharbej007@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/"
-  instagram: "https://www.instagram.com/aditya_sekhar_bej/",
+  instagram: "https://www.instagram.com/i.maverick.exe/",
   twitter: "https://twitter.com/iAdityaSekhar",
   display: true, // Set true to display this section, defaults to false
 };
@@ -41,10 +41,13 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK WEB DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develope highly interactive Front-end / User Interfaces for your web and mobile applications."
+      "⚡ Develope highly interactive Front-end / User Interfaces for your web applications."
+    ),
+    emoji(
+      "⚡ Deals with the internal content of the system, the server technologies - database, architecture, software logic."
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks."),
-    // emoji("⚡ Integration of third party services such as Firebase"),
+    emoji("⚡ Integration of third party services such as Firebase"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -75,10 +78,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node",
     },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire",
-    // },
+    {
+      skillName: "Express.js",
+      fontAwesomeClassname: "fab fa-node-js",
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire",
+    },
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "fa fa-database",
@@ -192,9 +199,42 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF MY PROJECTS",
   projects: [
+    
+    {
+      image: require("./assets/images/timecamp.jpeg"),
+      projectName: "Timecamp (Clone)",
+      projectDesc:
+        "Inspired from timecamp.com to track the activity of computer users. Tech-stack and libraries used React, Styled-componenets , Tailwind, Node, Express and MongoDB.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://timecamp.netlify.app/",
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/iamdebobrota/Timecamp-Clone",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/indianexpress.jpeg"),
+      projectName: "Indian Express (Clone)",
+      projectDesc:
+        "Inspired from indianexpress.com. The Indian Express is an Indian daily newspaper website. Tech-stack used  React, Redux, Material UI, Styled-components, Firebase, Express and MongoDB.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://indianexpress.netlify.app/",
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/adityasekharbej/the-indian-express-clone",
+        },
+      ],
+    },
     {
       image: require("./assets/images/indiamart.png"),
-      projectName: "Indiamart-clone",
+      projectName: "Indiamart (Clone)",
       projectDesc:
         "A clone of India's largest online B2B marketplace, indiamart.com. Tech-stack and libraries used React, Redux, Styled-componenets , Material-UI.",
       footerLink: [
@@ -210,7 +250,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/pharmeasy.png"),
-      projectName: "Parmeasy-clone",
+      projectName: "Parmeasy (Clone)",
       projectDesc:
         "Inspired from pharmeasy.in, it is one of India's most trusted online pharmacy & medical store. Tech-stack used JavaScript, HTML, CSS",
       footerLink: [
@@ -226,7 +266,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/unsplash.png"),
-      projectName: "Unsplash-clone",
+      projectName: "Unsplash (Clone)",
       projectDesc:
         "Inspired from unsplash.com, a photo discovery platform.  made with JavaScript , HTML, and CSS .",
       footerLink: [
@@ -241,22 +281,38 @@ const bigProjects = {
         //  you can add extra buttons here.
       ],
     },
+    {
+      image: require("./assets/images/betterjotter.jpeg"),
+      projectName: "Better Jotter",
+      projectDesc:
+        "This is a chrome extension tool for taking quick & personal notes inside your browser with a single click. Tech-stack and libraries used React, Chakra UI, Node, Express and MongoDB.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://betterjotter.netlify.app/",
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/adityasekharbej/BetterJotter",
+        },
+      ],
+    }
     // {
-    //   image: require("./assets/images/amazon.PNG"),
-    //   projectName: "Amazon-clone",
+    //   image: require("./assets/images/timecamp.jpeg"),
+    //   projectName: "Timecamp-clone",
     //   projectDesc:
-    //     "A clone Of Amazon e-commerce website made with React.js ,redux and Firebase .  Redux is used to store all the cart data and Firebase is used to authenticate the user.",
+    //     "Inspired from timecamp.com to track the activity of computer users. Tech-stack and libraries used React, Styled-componenets , Tailwind, Node, Express and MongoDB.",
     //   footerLink: [
     //     {
     //       name: "Visit Website",
-    //       url: "https://clone-88a30.web.app/",
+    //       url: "https://timecamp.netlify.app/",
     //     },
     //     {
     //       name: "Github Repo",
-    //       url: "https://github.com/BiswajitDas1802/amazzon-clone",
+    //       url: "https://github.com/iamdebobrota/Timecamp-Clone",
     //     },
     //   ],
-    // },
+    // }
   ],
   display: true, // Set false to hide this section, defaults to true
 };

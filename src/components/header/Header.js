@@ -27,7 +27,7 @@ function Header() {
   const viewEducation = educationInfo.display;
 
   return (
-    <Headroom>
+    // <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -91,7 +91,7 @@ function Header() {
           </li>
         </ul>
       </header>
-    </Headroom>
+    // </Headroom>
   );
 }
 export default Header;
