@@ -199,7 +199,22 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF MY PROJECTS",
   projects: [
-    
+    {
+      image: require("./assets/images/bigbasket.jpeg"),
+      projectName: "Big Basket (Clone)",
+      projectDesc:
+        "Inspired from bigbasket.com. It is an online grocery shopping website. Tech-stack and libraries used React, Redux, Styled-components, Chakra UI, Node.js, Express.js and MongoDB.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://bigbasket-seven.vercel.app/",
+        },
+        {
+          name: "Github Repo",
+          url: "https://github.com/bushrajabeenk/sophisticated-legs-486",
+        },
+      ],
+    },
     {
       image: require("./assets/images/timecamp.jpeg"),
       projectName: "Timecamp (Clone)",
